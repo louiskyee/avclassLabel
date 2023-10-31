@@ -49,7 +49,7 @@ class avclass(object):
                             default=DEFAULT_OUTPUT_PATH,
                             help="Output label.csv"
                             )
-        parser.add_argument("--convert_to_one_line", "-c",
+        parser.add_argument("--convert-to-one-line", "-c",
                             dest="convertFlag",
                             nargs="?",
                             default=DEFAULT_CONVERT_FLAG,
