@@ -13,7 +13,7 @@ The AVClass Labeling Tool is a Python script that allows users to classify malwa
 
 ## Useage
 ```python=
-python3 avclass_label.py --input_folder <input_folder>
+python3 avclassLabel.py --input_folder <input_folder>
 ```
 ### parameter
 * `--input_folder` or `-i`: The folder path that stores the VirusTotal JSON report files. This parameter is required.
@@ -23,7 +23,7 @@ python3 avclass_label.py --input_folder <input_folder>
 
 ### Example
 ```python=
-python3 avclass_label.py --input_folder ./reports/
+python3 avclassLabel.py --input_folder ./reports/
 ```
 In this example, the script will process all the JSON report files in the `./reports/` folder, classify the malware families using AVClass, and generate a `label.csv` file in the `./reports/` folder.
 
